@@ -1,0 +1,60 @@
+../<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="Caixa">
+        <h1 class="texto_inicio">CADASTRE-SE AGORA!   </h1>
+        <h1 class="crie_personagem" >CRIE O SEU PERSONAGEM!</h1>
+        <p><br></p>
+        <ul class="input_cadastro">
+            <li>
+                <input  type="text" name="" id="nome" placeholder="Nome">
+            </li>
+            <p class="alertas" id="alerta_nome"></p>
+            <li>
+                <input type="text" name="" id="apelido" placeholder="Apelido">
+            </li>
+            <p class="alertas" id="alerta_apelido"></p>
+
+            <li>
+                <input type="email" name="" id="email" placeholder="Email">
+            </li>
+            <p class="alertas" id="alerta_email"></p>
+
+            <li>
+                <input type="password" name="" id="senha" placeholder="Senha">
+            </li>
+            <p class="alertas" id="alerta_senha"></p>
+
+            <li>
+                <input type="number" name="" id="cpf" placeholder="CPF">
+            </li>
+            <p class="alertas" id="alerta_cpf"></p>
+
+            <li>
+                <label for="email_login" class="login_senha">Data de nascimento</label>
+                <input type="date" name="" id="data_nascimento" placeholder="Nome/email">
+            </li>
+            <p class="alertas" id="alerta_data"></p>
+           
+      
+        </ul>
+        <p><br></p>
+
+        <button onclick="cadastrar()" class="botao_entrada">Cadastre-se</button>
+        <p class="conta"><a href="TelaLogin.html" class="botao_vermelho">JÁ SOU CADASTRADO!</a></p>
+    </div>
+  
+
+
+<script src="../js/cadastrar.js"></script>
+     
+</body>
+</html>

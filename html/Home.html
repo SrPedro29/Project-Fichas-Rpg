@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/homeStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div>
+            <button class="logo">
+                <img class="logoImg" src="../img/Ordo spes copy.png" alt="logo do site" srcset="">
+            </button>
+        </div>
+        <div class="menu"><p onclick="drop()" class="ordo">ORDO SPES</p> 
+            <div class="dropdown">
+                <ul>
+                    <p class="itens">sobre</p>
+                    <p class="itens">novo personagem</p>
+                    <p class="itens">elementos</p>
+                    <p class="itens">locais</p>
+                    <p class="itens">caderno</p>
+                    <p class="itens">rituais</p>
+                    <p class="itens">itens</p>
+                </ul>
+            </div>
+        </div>
+        <div><button class="conta">Trocar de Conta</button></div>
+        
+        
+    </header>
+    <div class="centro">
+        <div class="caixaGrande">
+            <div class="sobre">
+                <div class="info">
+                    <ul>
+                        <p>nome do personagem:</p> <input type="text"><br>
+                        <p>pnts de sanidade:</p> <input type="number"><br>
+                        <p>PE:</p> <input type="number"><br>
+                        <p>pnts de vida:</p> <input type="number"><br>
+                    <p>NEX:</p> <input type="number"><br>
+                    </ul>
+                </div>
+                <div class="AreaImg">
+                    <img class="personagem" src="../img/Sample_User_Icon.png" alt="imagem do personagem" srcset="">
+                </div>
+                
+            </div>
+            <div class="outrosPersonagens">
+                <div class="carousel">
+                    <div class="imgCarousel">
+                        <img class="imgClass" src="../img/barra vermelha.png" alt="carousel do personagem" >
+                    </div>
+                    <div class="imgCarousel">
+                        <img class="imgClass"  src="../img/barra verde.png" alt="carousel do personagem" >
+                    </div>
+                    <div class="imgCarousel">
+                        <img class="imgClass"  src="../img/barra azul.png" alt="carousel do personagem" >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/homeScript.js"></script>
+</body>
+</html>

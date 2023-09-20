@@ -1,0 +1,123 @@
+
+body{
+    background: radial-gradient(52.88% 52.88% at 50% 50%, #222B40 0%, #02040A 100%);
+    justify-content: center;
+    height: 100%;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+}
+.logo{
+    width: 3vw;
+    justify-content: center;
+    display: flex;
+    background: none;
+    box-shadow: none;   
+    border: none; 
+}
+.logoImg{
+    width: 3vw;
+}
+.personagem{
+    width: 50vh;
+    
+}
+.info{
+    color: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 42vh;
+    background:  linear-gradient(107.79deg, #FFFFFF 37.85%, #EED8C4 88.72%);
+    border-radius: 35px;
+}
+.sobre{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+}
+.AreaImg{
+    width: 40%;
+    height: 42vh;
+    background:linear-gradient(227.86deg, #FFFFFF 26.25%, #C9B19C 96.69%);
+    overflow: hidden;
+    border-radius: 35px;
+    justify-content: center;
+    display: flex;
+}
+.outrosPersonagens{
+    background: linear-gradient(108.51deg, #FFFFFF 46.28%, #C8A57D 104.67%);
+    width: 100%;
+    height: 48vh;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+}
+.caixaGrande{
+    background-color: #1A1818;
+    width: 100%;
+    height: 50%;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+p{
+    font-family: 'Exo 2', sans-serif;
+}
+.carousel{
+    display: flex;
+    width: 305px;
+    overflow:hidden;
+    
+}
+.imgCarousel{
+    transition: transform 1s;
+}
+.imgClass{
+    width: 255px;
+    margin: 50px;
+}
+.ordo{
+    color: white;
+    transition: .5s;
+    user-select: none;
+}
+.ordo:hover{
+    color: #E12244;
+}
+.dropdown{
+    position:absolute;
+    background-color: #1E1E1E;
+    color: white;
+    left: 45%;
+    top:5%;
+    height: 0;
+    overflow: hidden;
+    transition:height .2s ;
+}
+.menu:hover .dropdown{
+   height: 350px;
+}
+.menu:hover .ordo{
+    color: #E12244;
+}
+.conta{
+    background-color: #E12244;
+    color: white;
+    border: none;
+    width: 8vw;
+    height: 3vh;
+    font-size: 18px;
+}
+.itens:hover{
+    font-size: 15;
+}

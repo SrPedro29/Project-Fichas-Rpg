@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <div class="Caixa">
+            <h1 class="texto_inicio">INICIE A SUA SESSÃO EM BUSCA DA SUA JORNADA</h1>
+
+            <div class="input_Dados">
+                <label for="email_login" class="login_senha">Login</label>
+                <input type="text" id="email" class="input_login" name="Nome/email" id="login_nome" placeholder="Email" >
+
+                <label for="senha_login" class="login_senha">Senha</label>
+                <input type="text" id="senha" class="input_login" name="senha" id="login_senha" placeholder="Senha" >
+
+                <p class="esqueci_senha">Esqueceu o usuário/senha? <a href="#" class="botao_vermelho">Usuário/Senha</a></p>
+            </div>
+            <button onclick="login()" class="botao_entrada">Entrar</button>
+            <p class="conta">Não possui conta? <a href="TelaCadastro.html" class="botao_vermelho">CRIAR CONTA AGORA</a></p>
+        </div>
+    </main>
+    
+
+<script src="../js/login.js"></script>
+
+</body>
+</html>
